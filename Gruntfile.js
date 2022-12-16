@@ -396,7 +396,7 @@ module.exports = function(grunt) {
 
     clean: {
       dist: {
-        src: [path.dist],
+        src: [path.dist + "/**/*"],
       },
       hbs: {
         src: ['dist/**/*.hbs'],
